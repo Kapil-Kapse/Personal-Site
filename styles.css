@@ -1,0 +1,186 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;/*100% means => 16px but we want 90px , so 90/16 px=5.625 or 562.5% or 5.625em These text do scale up */
+  font-family: 'Montez', cursive;
+  color:#3B9AE1;
+  line-height: 2;
+
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color:#3B9AE1;
+  padding-bottom: 10px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+}
+
+p{
+  line-height: 2;
+}
+
+p{
+  font-family: 'Merriweather', serif;
+}
+
+hr{
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 8%;
+  margin: 100px auto;
+}
+
+a{
+  color:#54BAB9;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+
+.top-container{
+  background-color: #C1EFFF;
+  position: relative;
+  padding-top: 100px;
+}
+.Profile_Pic{
+  height: 259px;
+}
+
+.intro{
+  width: 40%;
+  margin: auto;
+
+
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+
+
+}
+
+
+
+.Programming{
+  height: 200px;
+  width: 25%;
+  float: left;
+  margin-right: 150px;
+  line-height: 100px;
+
+}
+
+
+
+
+.WebDev{
+  height: 259px;
+  width: 55%;
+  float: right;
+
+}
+
+
+.skill-row2{
+  width: 50%;
+  margin: 200px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+
+}
+
+
+
+
+
+
+.pro{
+  font-size: 2.5rem;
+  color:#3B9AE1;
+  text-decoration: underline;
+  font-family: 'VT323', monospace;
+  font-weight: normal;
+}
+
+.middle-container{
+  margin: 100px auto;
+}
+
+.bottom-cloud{
+  position: absolute;
+
+}
+
+.bottom-container{
+  background-color: #11999E;
+  padding: 50px 0 20px;
+}
+
+.contact-me{
+  color: #11999E;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+
+
+
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.top-cloud{
+  position: relative;
+  top: 40px;
+  left: 230px;
+}
